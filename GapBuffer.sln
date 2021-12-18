@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GapBufferTests", "GapBufferTests\GapBufferTests.csproj", "{9AF1D2B7-27C0-4540-93FB-1092768DEDD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GapBuffer", "GapBuffer\GapBuffer.csproj", "{183F41DA-DC24-468A-A678-F2AF43AD7675}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{81D459F6-4362-4686-AE35-BE0A298BD3C2}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AF1D2B7-27C0-4540-93FB-1092768DEDD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AF1D2B7-27C0-4540-93FB-1092768DEDD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AF1D2B7-27C0-4540-93FB-1092768DEDD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AF1D2B7-27C0-4540-93FB-1092768DEDD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{183F41DA-DC24-468A-A678-F2AF43AD7675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{183F41DA-DC24-468A-A678-F2AF43AD7675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{183F41DA-DC24-468A-A678-F2AF43AD7675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{183F41DA-DC24-468A-A678-F2AF43AD7675}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
