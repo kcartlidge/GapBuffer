@@ -35,8 +35,8 @@ enough to catch all the edge cases.
 using GapBuffer;
 
 var buffer = new GapBuffer<string>();
-buffer.Append("Hello");
-buffer.Append("World");
+buffer.Add("Hello");
+buffer.Add("World");
 buffer.Insert(1, "Cruel");
 
 for (var i = 0; i < 3; i++)
