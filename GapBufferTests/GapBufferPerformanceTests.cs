@@ -148,8 +148,10 @@ public class GapBufferPerformanceTests
 
     private struct BufferAction
     {
-        public int Index;
+        public int Index = 0;
         public bool IsInsert = true;
+
+        public BufferAction() {}
 
         public override string ToString()
         {

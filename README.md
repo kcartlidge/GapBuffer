@@ -2,6 +2,8 @@
 
 Implementation of a generic GapBuffer.
 
+Available on nuget at: https://www.nuget.org/packages/GapBuffer
+
 This is a collection type that maintains a gap within the backing storage. By keeping the gap located at the last point
 edited, future localised changes require less moving around of existing data than with a simple linear store. In
 essence, for ideal operations the gap allows for focused insertions/deletions that operate purely within the scope of
@@ -78,3 +80,15 @@ RandomisedLocalisedInsertsAndRemovals   7.6194859   0.6023950      12.7x faster
 
 *These were done on a MacBook Air M1, 7 core, 8GB with DotNet 6. Not that it matters, as it is the comparative results
 that count.*
+
+## Generating a new package
+
+Remember to update the versions in the project file first.
+The README and LICENSE files are included in the package so changes to them should be made before generating the new release.
+
+``` sh
+dotnet build -c release
+```
+
+The project is configured to create a package upon release build.
+The output will detail where the package files are.

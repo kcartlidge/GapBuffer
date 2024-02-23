@@ -3,6 +3,29 @@
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
         <Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<IncludeBuildOutput>true</IncludeBuildOutput>
+		<VersionPrefix>1.0.0.0</VersionPrefix>
+		<Product>GapBuffer</Product>
+		<Company>K Cartlidge</Company>
+		<Title>GapBuffer (Generic)</Title>
+		<Authors>K Cartlidge</Authors>
+		<Description>Implementation of a generic GapBuffer - maintains a gap within the backing storage and by keeping the gap located at the last point edited, future localised changes require less moving around of existing data than with a simple linear store.</Description>
+		<Copyright>K Cartlidge</Copyright>
+		<PackageLicenceUrl>https://opensource.org/licenses/MIT</PackageLicenceUrl>
+		<PackageProjectUrl>https://github.com/kcartlidge/GapBuffer</PackageProjectUrl>
+		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+		<PackageTags>gapbuffer,buffer,gap,collection,text</PackageTags>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<PackageReleaseNotes>
+		</PackageReleaseNotes>
+		<RepositoryUrl>https://github.com/kcartlidge/GapBuffer</RepositoryUrl>
+		<Summary>Implementation of a generic GapBuffer - maintains a gap within the backing storage and by keeping the gap located at the last point edited, future localised changes require less moving around of existing data than with a simple linear store.</Summary>
+		<Version>1.0.0</Version>
     </PropertyGroup>
-
+	<ItemGroup>
+		<None Include="../README.md" Pack="true" PackagePath="" />
+		<None Include="../LICENSE.txt" Pack="true" PackagePath="" />
+	</ItemGroup>
 </Project>
